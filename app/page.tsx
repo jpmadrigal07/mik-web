@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex justify-center">
       <Image
         src="/1024x5008.2.png"
         alt="Next.js Logo"
